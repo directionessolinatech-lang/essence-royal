@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.innerHTML = `
         <div class="product-image-container">
           <span class="product-tag">${p.tag}</span>
-          <img src="${p.image}" alt="Flacon ${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${fallbackSvg}';">
+          <img src="${p.image}" alt="Flacon ${p.name}" loading="lazy" decoding="async" width="500" height="500" onerror="this.onerror=null; this.src='${fallbackSvg}';">
         </div>
         <div class="product-body">
           <h3 class="product-title text-serif">${p.name}</h3>
