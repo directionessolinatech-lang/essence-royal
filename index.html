@@ -12,8 +12,11 @@
   <meta property="og:image" content="assets/images/hero-bg.jpg">
   <meta property="og:type" content="website">
 
-  <!-- Preload Critical Assets -->
-  <link rel="preload" as="image" href="assets/images/logo.png">
+  <!-- Preload Critical High-Priority WebP Images -->
+  <link rel="preload" as="image" href="assets/images/logo.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/images/fragrances/media_1789399160337.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/images/fragrances/media_1789399211206.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/images/fragrances/media_1789399428076.webp" type="image/webp">
 
   <!-- Favicon & Icons -->
   <link rel="icon" type="image/png" href="assets/images/logo.png">
@@ -33,7 +36,10 @@
   <header class="navbar" id="navbar">
     <div class="navbar-container">
       <a href="#" class="brand-logo">
-        <img src="assets/images/logo.png" alt="Essence Royale Logo" class="brand-logo-img">
+        <picture>
+          <source srcset="assets/images/logo.webp" type="image/webp">
+          <img src="assets/images/logo.png" alt="Essence Royale Logo" class="brand-logo-img" width="180" height="50">
+        </picture>
       </a>
 
       <nav>
@@ -61,13 +67,19 @@
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <div class="hero-bg-container">
-      <img src="assets/images/hero-bg.jpg" alt="Fond flacon parfum Essence Royale" class="hero-bg-img">
+      <picture>
+        <source srcset="assets/images/hero-bg.webp" type="image/webp">
+        <img src="assets/images/hero-bg.jpg" alt="Fond flacon parfum Essence Royale" class="hero-bg-img" fetchpriority="high" loading="eager">
+      </picture>
       <div class="hero-overlay"></div>
     </div>
 
     <div class="hero-content">
       <div class="hero-logo-wrapper">
-        <img src="assets/images/logo.png" alt="Emblème Essence Royale" class="hero-logo-img">
+        <picture>
+          <source srcset="assets/images/logo.webp" type="image/webp">
+          <img src="assets/images/logo.png" alt="Emblème Essence Royale" class="hero-logo-img" fetchpriority="high">
+        </picture>
       </div>
       <span class="hero-tag">Haute Parfumerie • Édition Limitée</span>
       <h1 class="hero-title text-serif">L'Élégance Absolue de la Haute Parfumerie</h1>
@@ -96,7 +108,10 @@
     <div class="section-container">
       <div class="universe-grid">
         <div class="universe-image-wrapper">
-          <img src="assets/images/brand-story.jpg" alt="L'Univers Essence Royale">
+          <picture>
+            <source srcset="assets/images/brand-story.webp" type="image/webp">
+            <img src="assets/images/brand-story.jpg" alt="L'Univers Essence Royale" loading="lazy">
+          </picture>
           <div class="universe-card-badge">
             <div class="number">100%</div>
             <div class="label">Parfums & Nectars Rares</div>
@@ -159,7 +174,10 @@
         <div class="product-card" data-category="oriental">
           <div class="product-image-container">
             <span class="product-tag">Extrait de Parfum</span>
-            <img src="assets/images/fragrances/media_1789399160337.jpg" alt="Flacon Baccarat Rouge 540" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789399160337.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789399160337.jpg" alt="Flacon Baccarat Rouge 540" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Baccarat Rouge 540</h3>
@@ -186,7 +204,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Homme</span>
-            <img src="assets/images/fragrances/media_1789399211206.jpg" alt="Flacon Intense Noir" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789399211206.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789399211206.jpg" alt="Flacon Intense Noir" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Intense Noir</h3>
@@ -213,7 +234,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Mirada Perfumes</span>
-            <img src="assets/images/fragrances/media_1789399428076.jpg" alt="Flacon Brave Noir" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789399428076.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789399428076.jpg" alt="Flacon Brave Noir" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Brave Noir</h3>
@@ -240,7 +264,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Mirada Perfumes</span>
-            <img src="assets/images/fragrances/media_1789400084816.jpg" alt="Flacon Surf Pour Homme" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789400084816.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789400084816.jpg" alt="Flacon Surf Pour Homme" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Surf Pour Homme</h3>
@@ -267,7 +294,10 @@
         <div class="product-card" data-category="floral">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum</span>
-            <img src="assets/images/fragrances/media_1789400402451.jpg" alt="Flacon Vanille Bouquet" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789400402451.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789400402451.jpg" alt="Flacon Vanille Bouquet" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Vanille Bouquet</h3>
@@ -294,7 +324,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Homme</span>
-            <img src="assets/images/fragrances/media_1789465330129.jpg" alt="Flacon Monark" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465330129.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465330129.jpg" alt="Flacon Monark" loading="eager" fetchpriority="high" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Monark</h3>
@@ -321,7 +354,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Homme</span>
-            <img src="assets/images/fragrances/media_1789465330162.jpg" alt="Flacon Aventos Blue For Him" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465330162.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465330162.jpg" alt="Flacon Aventos Blue For Him" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Aventos Blue For Him</h3>
@@ -348,7 +384,10 @@
         <div class="product-card" data-category="floral">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Femme</span>
-            <img src="assets/images/fragrances/media_1789465330191.jpg" alt="Flacon Dome Casabella" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465330191.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465330191.jpg" alt="Flacon Dome Casabella" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Dome Casabella</h3>
@@ -375,7 +414,10 @@
         <div class="product-card" data-category="floral">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Femme</span>
-            <img src="assets/images/fragrances/media_1789465430211.jpg" alt="Flacon Pink Diamond" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465430211.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465430211.jpg" alt="Flacon Pink Diamond" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Pink Diamond</h3>
@@ -402,7 +444,10 @@
         <div class="product-card" data-category="oriental">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Orientale</span>
-            <img src="assets/images/fragrances/media_1789465551502.jpg" alt="Flacon Khamrah" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465551502.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465551502.jpg" alt="Flacon Khamrah" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Khamrah (Paris Avenue)</h3>
@@ -429,7 +474,10 @@
         <div class="product-card" data-category="oriental">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • 50ML</span>
-            <img src="assets/images/fragrances/media_1789465609862.jpg" alt="Flacon Mosuf" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465609862.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465609862.jpg" alt="Flacon Mosuf" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Mosuf</h3>
@@ -456,7 +504,10 @@
         <div class="product-card" data-category="floral">
           <div class="product-image-container">
             <span class="product-tag">Paris Corner</span>
-            <img src="assets/images/fragrances/media_1789465669518.jpg" alt="Flacon Marshmallow Blush" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465669518.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465669518.jpg" alt="Flacon Marshmallow Blush" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Marshmallow Blush</h3>
@@ -483,7 +534,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Fragrance Deluxe • Homme</span>
-            <img src="assets/images/fragrances/media_1789465831451.jpg" alt="Flacon L'Homme Intense" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789465831451.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789465831451.jpg" alt="Flacon L'Homme Intense" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">L'Homme Intense</h3>
@@ -510,7 +564,10 @@
         <div class="product-card" data-category="boise">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • avec Déodorant</span>
-            <img src="assets/images/fragrances/media_1789466119388.jpg" alt="Flacon Suspenso Pour Homme" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789466119388.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789466119388.jpg" alt="Flacon Suspenso Pour Homme" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Suspenso Pour Homme</h3>
@@ -537,7 +594,10 @@
         <div class="product-card" data-category="floral">
           <div class="product-image-container">
             <span class="product-tag">Eau de Parfum • Blanc Édition</span>
-            <img src="assets/images/fragrances/media_1789466139082.jpg" alt="Flacon Exchange Unlimited" loading="lazy">
+            <picture>
+              <source srcset="assets/images/fragrances/media_1789466139082.webp" type="image/webp">
+              <img src="assets/images/fragrances/media_1789466139082.jpg" alt="Flacon Exchange Unlimited" loading="lazy" decoding="async" width="420" height="420">
+            </picture>
           </div>
           <div class="product-body">
             <h3 class="product-title text-serif">Exchange Unlimited (Blanc Édition)</h3>

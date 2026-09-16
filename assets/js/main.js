@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Le mariage parfait entre la puissance du bois, la sensualité du musc et l\'éclat du safran.',
       price: '8 000 FCFA',
       category: 'oriental',
-      image: 'assets/images/fragrances/media_1789399160337.jpg'
+      image: 'assets/images/fragrances/media_1789399160337.webp'
     },
     {
       id: 'intense-noir',
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance intense et envoûtante, conçue pour l\'homme moderne qui impose sa présence.',
       price: '10 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789399211206.jpg'
+      image: 'assets/images/fragrances/media_1789399211206.webp'
     },
     {
       id: 'brave-noir',
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'L\'audace d\'une vraie signature. Plus qu\'un parfum... une attitude élégante et intemporelle.',
       price: '9 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789399428076.jpg'
+      image: 'assets/images/fragrances/media_1789399428076.webp'
     },
     {
       id: 'surf-pour-homme',
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'L\'élégance au masculin. Une vague de fraîcheur intense qui vous accompagne toute la journée.',
       price: '9 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789400084816.jpg'
+      image: 'assets/images/fragrances/media_1789400084816.webp'
     },
     {
       id: 'vanille-bouquet',
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance qui séduit... La douceur gourmande de la vanille alliée à l\'élégance d\'un parfum intemporel.',
       price: '8 000 FCFA',
       category: 'floral',
-      image: 'assets/images/fragrances/media_1789400402451.jpg'
+      image: 'assets/images/fragrances/media_1789400402451.webp'
     },
     {
       id: 'monark',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'L\'élégance d\'un vrai leader. Un parfum intense pour un homme d\'exception, alliant puissance et charisme.',
       price: '9 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789465330129.jpg'
+      image: 'assets/images/fragrances/media_1789465330129.webp'
     },
     {
       id: 'aventos-blue',
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'L\'homme moderne laisse une empreinte... Un parfum intense pour une présence inoubliable.',
       price: '8 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789465330162.jpg'
+      image: 'assets/images/fragrances/media_1789465330162.webp'
     },
     {
       id: 'dome-casabella',
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance qui révèle votre féminité... Sensuelle, moderne et intemporelle.',
       price: '8 000 FCFA',
       category: 'floral',
-      image: 'assets/images/fragrances/media_1789465330191.jpg'
+      image: 'assets/images/fragrances/media_1789465330191.webp'
     },
     {
       id: 'pink-diamond',
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance qui sublime votre féminité... Plus qu\'un parfum, une histoire d\'amour.',
       price: '4 000 FCFA',
       category: 'floral',
-      image: 'assets/images/fragrances/media_1789465430211.jpg'
+      image: 'assets/images/fragrances/media_1789465430211.webp'
     },
     {
       id: 'khamrah',
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Trois ambiances... une seule émotion. L\'élégance orientale dans toute sa splendeur.',
       price: '2 500 FCFA',
       category: 'oriental',
-      image: 'assets/images/fragrances/media_1789465551502.jpg'
+      image: 'assets/images/fragrances/media_1789465551502.webp'
     },
     {
       id: 'mosuf',
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Plus qu\'un parfum... une émotion. Des senteurs uniques pour une personnalité inoubliable.',
       price: '2 500 FCFA',
       category: 'oriental',
-      image: 'assets/images/fragrances/media_1789465609862.jpg'
+      image: 'assets/images/fragrances/media_1789465609862.webp'
     },
     {
       id: 'marshmallow-blush',
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une touche de douceur... une explosion de bonheur ! Une expérience gourmande et irrésistible.',
       price: '2 500 FCFA',
       category: 'floral',
-      image: 'assets/images/fragrances/media_1789465669518.jpg'
+      image: 'assets/images/fragrances/media_1789465669518.webp'
     },
     {
       id: 'lhomme-intense',
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance qui révèle votre vraie force. Un parfum intense pour un homme d\'exception.',
       price: '8 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789465831451.jpg'
+      image: 'assets/images/fragrances/media_1789465831451.webp'
     },
     {
       id: 'suspenso',
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Une fragrance qui révèle votre masculinité... Plus qu\'un parfum, une presence qui se ressent.',
       price: '8 000 FCFA',
       category: 'boise',
-      image: 'assets/images/fragrances/media_1789466119388.jpg'
+      image: 'assets/images/fragrances/media_1789466119388.webp'
     },
     {
       id: 'exchange-unlimited',
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Fraîche, féminine, inoubliable... Une fragrance qui révèle votre élégance naturelle à chaque instant.',
       price: '8 000 FCFA',
       category: 'floral',
-      image: 'assets/images/fragrances/media_1789466139082.jpg'
+      image: 'assets/images/fragrances/media_1789466139082.webp'
     }
   ];
 
@@ -318,9 +318,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!productsGrid) return;
     
     productsGrid.innerHTML = '';
-    items.forEach(p => {
-      const waUrl = buildWhatsappUrl(p.name, p.price);
+    items.forEach((p, idx) => {
+      const waUrl = buildWhatsappUrl(p.name, p.price, p.image);
       const fallbackSvg = getLuxurySvg(p);
+      const webpImage = p.image.endsWith('.webp') ? p.image : p.image.replace(/\.(jpg|jpeg|png)$/, '.webp');
+      const jpgImage = p.image.endsWith('.jpg') ? p.image : p.image.replace(/\.(webp|png)$/, '.jpg');
+      
+      // Eager load first 6 products for instant display without waiting for scroll events
+      const isEager = idx < 6;
+      const loadingAttr = isEager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
       
       const card = document.createElement('div');
       card.className = 'product-card';
@@ -329,7 +335,10 @@ document.addEventListener('DOMContentLoaded', () => {
       card.innerHTML = `
         <div class="product-image-container">
           <span class="product-tag">${p.tag}</span>
-          <img src="${p.image}" alt="Flacon ${p.name}" loading="lazy" decoding="async" width="500" height="500" onerror="this.onerror=null; this.src='${fallbackSvg}';">
+          <picture>
+            <source srcset="${webpImage}" type="image/webp">
+            <img src="${jpgImage}" alt="Flacon ${p.name}" ${loadingAttr} decoding="async" width="420" height="420" onerror="this.onerror=null; this.src='${fallbackSvg}';">
+          </picture>
         </div>
         <div class="product-body">
           <h3 class="product-title text-serif">${p.name}</h3>
